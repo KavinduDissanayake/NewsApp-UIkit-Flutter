@@ -1,16 +1,35 @@
-# news_app_ui
+# NewsApp-UIkit-Flutter
 
-A new Flutter project.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Getting Started
+This is a simple news app ui based on figma design
 
-This project is a starting point for a Flutter application.
+#### Setup Project
 
-A few resources to get you started if this is your first Flutter project:
+Step 01:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+run flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Step 02:
+
+```sh
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+Step 03:
+
+```sh
+flutter pub run
+```
+
+#### Figma link
+https://www.figma.com/file/M5wylP63oEgHSLq7pKsKRK/news?node-id=0%3A1&t=uIBT1P0SZje6uyR1-1
+
+
+#### Demo image
+<img align="center" src="https://github.com/KavinduDissanayake/NewsApp-UIkit-Flutter/blob/main/Ss/PSD3.png"> 
+
+## License
+
+Kavindu Dissanayake
